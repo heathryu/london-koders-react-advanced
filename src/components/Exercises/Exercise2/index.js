@@ -7,8 +7,11 @@ const Exercise2 = () => {
   return (
     <Container>
       <Description>
-        Rewrite the Food component in file 'Exercise2.js' to encapsulate logic
+        Rewrite the Food component in file 'Exercise2.js' to use Render Props to encapsulate logic
         to make API call and provide Food data.
+      </Description>
+      <Description>
+        Stretch Goal: Also try the same with HOC and Custom Hook.
       </Description>
       <ExerciseSection borderColor="persianBlue">
         <FoodList />

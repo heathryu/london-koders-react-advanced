@@ -1,11 +1,10 @@
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { Menu, MenuItem } from './components/Menu';
 import StyledLink from './components/StyledLink';
 
 import Layout from './components/Layout';
-import description from './components/Description';
 import Exercise1 from './components/Exercises/Exercise1';
 import Exercise2 from './components/Exercises/Exercise2';
 import Description from './components/Description';
